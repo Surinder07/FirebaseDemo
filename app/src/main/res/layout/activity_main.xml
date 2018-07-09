@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+
+    <Spinner
+        android:id="@+id/spinnerGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextName"
+        android:entries="@array/genres"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+
+    <Button
+        android:id="@+id/buttonAddArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@+id/spinnerGenre"
+        android:text="Add Artist"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <ListView
+
+        android:id="@+id/listViewArtits"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/buttonAddArtist"
+        android:layout_height="match_parent"></ListView>
+</RelativeLayout>

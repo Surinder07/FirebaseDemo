@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "36822904194",
+    "firebase_url": "https://home-rentals-e86a6.firebaseio.com",
+    "project_id": "home-rentals-e86a6",
+    "storage_bucket": "home-rentals-e86a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36822904194:android:6c4f5fb7964692df",
+        "android_client_info": {
+          "package_name": "com.SurinderSingh.HomeRentals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36822904194-su0tidkptcmpta168orq43eo39b0000t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Qo-IrJ_wu-hwPucW6iDcWVirZWUq_is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36822904194:android:977d04f3e47adfdb",
+        "android_client_info": {
+          "package_name": "com.example.surindersingh.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36822904194-105l0kdl31hefr0a0mqaat1bnvk59dlo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.surindersingh.firebasedemo",
+            "certificate_hash": "902444b85cd1dc5895142c7bd8c3eede870f9942"
+          }
+        },
+        {
+          "client_id": "36822904194-su0tidkptcmpta168orq43eo39b0000t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Qo-IrJ_wu-hwPucW6iDcWVirZWUq_is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36822904194-su0tidkptcmpta168orq43eo39b0000t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
